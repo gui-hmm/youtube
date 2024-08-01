@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Estilos para navegadores que suportam scrollbar-width e scrollbar-color (ex: Firefox) */
+* {
+  scrollbar-width: thin; /* Define a largura da barra de rolagem como fina */
+  scrollbar-color: #87878700 #ffffff00; /* Define a cor do polegar e da trilha da barra de rolagem */
+}
+
+/* Estilos para navegadores baseados em WebKit (ex: Chrome, Safari, Edge) */
+*::-webkit-scrollbar {
+  width: 10px; /* Define a largura da barra de rolagem */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #87878700; /* Define a cor do polegar */
+  border-radius: 10px; /* Adiciona cantos arredondados ao polegar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff00; /* Define a cor da trilha */
+}
